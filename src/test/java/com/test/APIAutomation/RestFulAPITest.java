@@ -1,14 +1,14 @@
 package com.test.APIAutomation;
 
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.greaterThan;
+import static org.hamcrest.Matchers.startsWith;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import io.restassured.RestAssured;
 import io.restassured.response.Response;
-
-import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
-import static org.hamcrest.Matchers.*;
 
 public class RestFulAPITest {
 
